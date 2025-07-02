@@ -27,7 +27,10 @@ All data is saved in your browser and persists between sessions.
 
    npm run dev
 3. Open your browser to the local URL shown in the terminal (e.g., http://localhost:5173/).
+ 
+ ## deploy using vercel
 
+ if you dont want to import you can directly check my work here https://ngo-trial.vercel.app/ 
 
 
 This project is for learning and personal use. Enjoy managing your finances!
