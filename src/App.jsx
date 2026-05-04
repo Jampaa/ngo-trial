@@ -123,6 +123,16 @@ function App() {
     setDarkMode(!darkMode);
   };
 
+  // Add or remove 'dark' class on html element when darkMode changes
+  useEffect(() => {
+    const html = document.documentElement;
+    if (darkMode) {
+      html.classList.add('dark');
+    } else {
+      html.classList.remove('dark');
+    }
+  }, [darkMode]);
+
   return (
     <Router>
       <div className={`min-h-screen ${darkMode ? 'dark bg-gray-900 text-white' : 'bg-gray-50 text-gray-900'}`}>
